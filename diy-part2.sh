@@ -12,8 +12,9 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+go version
+sudo apt remove golang
+sudo rm -rf /usr/local/go
 wget https://go.dev/dl/go1.21.0.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.21.0.linux-amd64.tar.gz
-sed -i 'export PATH=$PATH:/usr/local/go/bin' ~/.profile
-source ~/.profile
 go version
