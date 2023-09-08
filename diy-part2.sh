@@ -32,3 +32,4 @@ source ~/.profile
 go version
 cd ~/work/OpenWrt-86x_64-firmware/OpenWrt-86x_64-firmware
 curl ip.sb
+df -hT $PWD
